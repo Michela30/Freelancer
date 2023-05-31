@@ -13,12 +13,19 @@
 :root{
     --mr_header_footer_color: #2C3E50;
     --mr_main_color: #1ABC9C;
-   
+    --mr_footer_top_color: #3A546D;
+    --mr_link_color: #1ABC9C;
 }
 
 .mr_header_footer_color{
     background-color: #2C3E50;
 }
+.mr_footer_top_color{
+    background-color: #3A546D;
+}
 .mr_main_color{
     background-color: #1ABC9C;
+}
+.mr_link_color{
+    color: #1ABC9C;
 }

@@ -5,8 +5,9 @@
 HEADER
 */
 
-
-
+.list-group-item{
+    display: none;
+}
 
 
 
@@ -54,36 +55,21 @@ FOOTER
 
 
 
+.debug .top_main{
+    background-color: blueviolet;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-MEDIA QUERY da Desktop first
-*/
-
-/* Tablet */
-
-@media screen and (max-width: 768px){
-
+.debug .avatar{
+    background-color: cornflowerblue;
 }
 
 
-/* Mobile */
-@media screen and (max-width: 576px){
-    
-}
+
+
+
+
+
+
 
 
 
@@ -94,13 +80,16 @@ MEDIA QUERY da Mobile first
 /* Tablet */
 
 @media screen and (min-width: 768px){
-
+    .list-group-item{
+        display: block;
+    }
+    
 }
 
 
 /* Desktop */
 @media screen and (min-width: 992px){
-    
+   
 }
 
 

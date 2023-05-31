@@ -9,3 +9,15 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+
+:root{
+    --mr_header_footer_color: #2C3E50;
+    --mr_top_main_color: #1ABC9C;
+}
+
+.mr_header_footer_color{
+    background-color: #2C3E50;
+}
+.mr_top_main_color{
+    background-color: #1ABC9C;
+}

@@ -63,9 +63,16 @@ FOOTER
     background-color: cornflowerblue;
 }
 
+.debug .col-12 .img_cover{
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
 
-
-
+.debug .third_main{
+    background-color: blueviolet;
+}
 
 
 

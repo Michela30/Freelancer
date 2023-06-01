@@ -5,41 +5,12 @@
 HEADER
 */
 
-.list-group-item{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* 
 MAIN
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -87,9 +58,6 @@ MEDIA QUERY da Mobile first
 /* Tablet */
 
 @media screen and (min-width: 768px){
-    .list-group-item{
-        display: block;
-    }
     
 }
 

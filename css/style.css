@@ -12,8 +12,9 @@ HEADER
 MAIN
 */
 
-
-
+h1{
+    font-size: 2.5em;
+}
 
 /* 
 FOOTER
@@ -25,26 +26,48 @@ FOOTER
 
 
 
-
+/* 
 .debug .top_main{
     background-color: blueviolet;
-}
+} */
 
-.debug .avatar{
+/* .debug .avatar{
     background-color: cornflowerblue;
-}
+} */
 
-.debug .col-12 .img_cover{
+/* .debug .col-12 .img_cover{
     background-color: brown;
     width: 100%;
     height: 150px;
-}
+} */
 
-.debug .third_main{
+/* .debug .third_main{
     background-color: blueviolet;
+} */
+
+
+
+
+
+
+
+/* 
+MEDIA QUERY da Mobile first
+*/
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+    
+    /* .avatar > img{
+        width: 25%;
+    } */
 }
 
 
-
+/* Desktop */
+@media screen and (min-width: 992px){
+   
+}
 
 
